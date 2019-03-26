@@ -1,0 +1,15 @@
+Package: LargeScaleLinReg
+Type: Package
+Title: Routine to do large scale linear regression
+Version: 1.0
+Date: 2019-03-26
+Author: John Morrison
+Maintainer: John Morrison <jmorr@usc.edu>
+Description: Routine to do multiple linear regressions, XB = Y,
+  where a large number of columns of the X matrix are constant
+  and a small number of columns in X change and/or Y changes.
+License: GPL-3
+Imports: Rcpp (>= 1.0.0)
+LinkingTo: Rcpp, RcppArmadillo
+Encoding: UTF-8
+RoxygenNote: 6.1.0
